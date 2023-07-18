@@ -1,0 +1,21 @@
+{
+  "name": "torchlight-vite-vanilla-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "rehype-stringify": "^9.0.3",
+    "remark-parse": "^10.0.2",
+    "remark-rehype": "^10.1.0",
+    "remark-torchlight": "^0.0.5",
+    "unified": "^10.1.2"
+  }
+}
